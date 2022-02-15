@@ -47,9 +47,9 @@ $stmt->execute([
 	'sexe'=>$sexe,
 	'age'=>$age
 
-])->add($mw);
+]);
 echo('insertion reussi'.$name .$sexe  .$age);
-});
+})->add($mw);
 
 
 
